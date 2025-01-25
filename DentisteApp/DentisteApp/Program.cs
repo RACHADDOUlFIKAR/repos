@@ -49,6 +49,7 @@ internal class Program
         builder.Services.AddScoped<IFeuilleDeSoinRepository, FeuilleDeSoinRepository>();
         builder.Services.AddScoped<IFactureRepository, FactureRepository>();
         builder.Services.AddScoped<ICertificatMedicalRepository, CertificatMedicalRepository>();
+        builder.Services.AddScoped<IRendez_vousRepository, Rendez_vousRepository>();
 
         builder.Services.AddAuthentication(options =>
         {

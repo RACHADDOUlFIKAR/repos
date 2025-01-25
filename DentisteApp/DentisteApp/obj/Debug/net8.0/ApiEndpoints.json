@@ -772,6 +772,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DentisteApp.Controllers.Rendez_vousController",
+    "Method": "GetAll",
+    "RelativePath": "api/Rendez_vous",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DentisteApp.Controllers.Rendez_vousController",
+    "Method": "Create",
+    "RelativePath": "api/Rendez_vous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rendezVous",
+        "Type": "DentisteApp.Models.Entities.Rendez_vous",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DentisteApp.Controllers.Rendez_vousController",
+    "Method": "GetById",
+    "RelativePath": "api/Rendez_vous/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DentisteApp.Controllers.Rendez_vousController",
+    "Method": "Update",
+    "RelativePath": "api/Rendez_vous/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rendezVous",
+        "Type": "DentisteApp.Models.Entities.Rendez_vous",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DentisteApp.Controllers.Rendez_vousController",
+    "Method": "Delete",
+    "RelativePath": "api/Rendez_vous/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DentisteApp.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

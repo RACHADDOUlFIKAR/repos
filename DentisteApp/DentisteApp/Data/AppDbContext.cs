@@ -21,6 +21,7 @@ namespace GestionBudget.Data
         public DbSet<FeuilleDeSoin> FeuillesDeSoin { get; set; }
         public DbSet<Facture> Factures { get; set; }
         public DbSet<Acte> Actes { get; set; }
+        public DbSet<Rendez_vous> Rendez_vous { get; set; }
         public DbSet<CertificatMedical> CertificatsMedicaux { get; set; }
 
     }

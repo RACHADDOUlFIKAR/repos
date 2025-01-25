@@ -11,6 +11,7 @@ namespace DentisteApp.IRepositories
     public interface IOrdonnanceRepository : IRepositoryGlobal<Ordonnance> { }
 
     public interface IImagerieRepository : IRepositoryGlobal<Imagerie> { }
+    public interface IRendez_vousRepository : IRepositoryGlobal<Rendez_vous> { }
 
     public interface IFeuilleDeSoinRepository : IRepositoryGlobal<FeuilleDeSoin> { }
 
